@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 3</title>
+    <title>Desafio 3 (O Jogo)</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <main>
+        <fieldset class="conteudo">
+            <legend>ojogo</legend>
+            <div class="infos">
+                <div class="jogadorCondicoes">
+                    <img src="src/image1.svg" class="imagem" alt="imagem representando o player">
+                    <label id="txt">Nick: </label><br>
+                    <input type="text" class="inputNome">
+                    <label id="txt2">Intervalo: </label><br>
+                    <select name="inputIntervalo" id="opcoes" >
+                        <option value="opcao1" selected>Opção 1: 1 a 10 </option>
+                        <option value="opcao2">Opção 2: 1 a 100 </option>
+                        <option value="opcao3">Opção 3: 1 a 200 </option>
+                    </select>
+                    <button class="comecar" type="submit">começar</button>
+                </div>
+
+                <div class="jogo">
+                    <p class="identificacao">Olá <strong>Fulano</strong>, vamos jogar!</p>
+                    <p class="regras">De acordo com a opção de intervalo que você escolheu, descubra o número.</p>
+                    <label id="txt3">Digite um número: </label>
+                    <input type="text" name="jogada" id="jogada"><br>
+                    <button class="jogar" type="submit">jogar</button>
+                    <p class="resultado"><strong>O número é maior!</strong></p>
+                    <p class="quantTentativas"> Você ainda tem 2 tentativas!</p>
+                </div>
+            </div>
+        </fieldset>
+    </main>
 </body>
 </html>

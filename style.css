@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Squada+One&display=swap');
+
+:root{
+    --azul: #1180E6;
+    --cinza: #B0A3A3;
+    --preto: #000000;
+    --laranja: #F2890D;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: var(--laranja);
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+
+}
+
+main{
+    max-width: 1084px;
+    width: 100%;
+    margin: auto;
+    margin: 15px;
+    margin-bottom: 90px;
+}
+
+.conteudo{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.infos{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.jogadorCondicoes{
+    /* border: 1px solid green; */
+    height: 570px;
+    padding: 0px 100px 65px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+fieldset{
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+    background: white;
+    flex-wrap: wrap;
+}
+
+legend{
+    font-family: 'Squada One';
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 70px;
+    border: 1px solid var(--azul);
+    background: var(--azul);
+    border-radius: 20px;
+    padding: 40px 50px;   
+}
+
+.imagem{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+}
+
+#txt{
+    font-family: 'Press Start 2P';
+    align-self: flex-start;
+    font-size: 18px;
+}
+
+#txt2{
+    font-family: 'Press Start 2P';
+    align-self: flex-start;
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+
+input{
+    font-family: 'Press Start 2P';
+    width: 350px;
+    height: 42px;
+    border: 2px solid var(--cinza);
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#opcoes{
+    width: 350px;
+    height: 42px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid var(--cinza);
+    border-radius: 5px;
+}
+
+.comecar{
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    height: 45px;
+    width: 200px;
+    border: 3px solid black;
+    background: var(--azul);
+    color: white;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+
+.jogo{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    align-self: center;
+    border-left: 5px solid var(--cinza);
+    background: white;
+    height: 430px;
+    width: 540px;
+    margin-bottom: 100px;
+}
+
+#txt3{
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 50px;
+}
+
+.jogar{
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    height: 45px;
+    width: 200px;
+    border: 3px solid black;
+    background: var(--laranja);
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.resultado{
+    margin-top: 50px;
+}
+
+@media(max-width:1150px){
+
+    body{
+        margin-top: 70px;
+
+    }
+
+    main{
+        margin: 50px;
+    }
+    .conteudo{
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    fieldset{
+        border: 1px solid white;
+        border-radius: 30px;
+        background: white;
+    }
+
+    .jogadorCondicoes{
+        /* border: 1px solid green; */
+        height: 570px;
+        width: 100%;
+        padding: 0px 100px 65px 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #txt{
+        align-self: center;
+    }
+    
+    #txt2{
+        align-self: center;
+    }
+
+    .jogo{
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Roboto';
+        font-size: 25px;
+        align-self: center;
+        border-left: none;
+        background: white;
+        height: 430px;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+}
+
+@media(max-width:428px){
+
+    body{
+        margin-top: 70px;
+
+    }
+
+    main{
+        margin: 50px;
+    }
+    .conteudo{
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    fieldset{
+        border: 1px solid white;
+        border-radius: 30px;
+        background: white;
+    }
+
+    .jogadorCondicoes{
+        /* border: 1px solid green; */
+        height: 570px;
+        width: 100%;
+        padding: 0px 100px 65px 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #txt{
+        align-self: center;
+    }
+    
+    #txt2{
+        align-self: center;
+    }
+
+    .jogo{
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Roboto';
+        font-size: 25px;
+        align-self: center;
+        border-left: none;
+        background: white;
+        height: 430px;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+}
