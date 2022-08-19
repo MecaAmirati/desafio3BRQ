@@ -75,7 +75,7 @@ function jogo() {
         dica.innerHTML = "GAME OVER!"
         jogar.disabled = true;
         jogar.style.backgroundColor = '#b0a3a3';
-        quantTentativas.innerHTML = `Você não acertou. <br> O número era ${numSorteado}!`
+        quantTentativas.innerHTML = `Você não acertou. <br> O número era ${numSorteado}`
     }
 
     // if (jogada == numSorteado) {
