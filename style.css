@@ -20,7 +20,6 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 230px;
-
 }
 
 main{
@@ -38,13 +37,11 @@ main{
 }
 
 .infos{
-    /* border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
 }
 
 .jogadorCondicoes{
-    /* border: 1px solid green; */
     height: 570px;
     padding: 0px 100px 65px 80px;
     display: flex;
@@ -119,13 +116,13 @@ input{
     width: 200px;
     border: 3px solid black;
     background: var(--cinza);
+    cursor: pointer;
     color: white;
     border-radius: 20px;
     margin-top: 70px;
 }
 
 .jogo{
-    /* border: 1px solid blue; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -162,7 +159,23 @@ input{
     height: 45px;
     width: 200px;
     border: 3px solid black;
-    background: var(--laranja);
+    background: var(--cinza);
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.reset{
+    display: none;
+    font-family: 'Press Start 2P';
+    text-transform:uppercase;
+    font-size: 20px;
+    height: 45px;
+    width: 200px;
+    border: 3px solid black;
+    background: #4caf50;
+    cursor: pointer;
     color: white;
     border-radius: 20px;
     margin-top: 10px;
@@ -172,13 +185,9 @@ input{
     margin-top: 50px;
 }
 
+/* tablet To Do */
 
 @media(max-width:428px){
-
-    /* main{
-        margin-bottom: 100px;
-    } */
-
     body{
         margin-top: 60px;
         height: 1190px;
@@ -186,21 +195,15 @@ input{
     }
 
     .infos{
-        /* border: 1px solid red; */
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-
     }
-    /* fieldset{
-        height: 1000px;
-    } */
 
     .jogadorCondicoes{
         display: flex;
         align-items: center;
         padding: 0;
-
     }
 
     .linha{
@@ -214,7 +217,6 @@ input{
         height: 600px;
         border-left: none;
         margin: 20px;
-
     }
 
     #txt3{
